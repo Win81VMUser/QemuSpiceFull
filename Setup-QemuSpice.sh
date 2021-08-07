@@ -1,5 +1,5 @@
 echo "This will install Qemu Spice ON TERMUX NO LINUX OS!!! 500mb of space will be used!"
-wget https://github.com/Win81VMUser/useful-stuff/raw/main/Android/Termux-commands/qemu-spice-4.2.zip
+wget https://github.com/Win81VMUser/QemuSpiceFull/releases/download/v1.0/qemu-spice-4.2.zip
 pkg install unzip -y
 echo "Installing qemu..."
 unzip qemu-spice-4.2.zip
