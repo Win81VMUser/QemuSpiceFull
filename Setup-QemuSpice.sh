@@ -2,7 +2,7 @@ echo "This will install Qemu Spice ON TERMUX NO LINUX OS!!! 500mb of space will 
 echo "Installing qemu..."
 
 pkg install qemu-system-x86_64-headless -y
-cleae
+clear
 echo "Done! Now download aSpice app and have fun! Starting test command..."
 echo "Press ctrl-c to exit!"
 qemu-system-x86_64 -spice port=5900,disable-ticketing $@ -monitor stdio
